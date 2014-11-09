@@ -1,7 +1,7 @@
 // find sum of (from two) up to four squared primes that add up to the given number
 
-var bint=require("/home/paul/node/bint")
-var f=require("/home/paul/node/fact")
+var bint=require("bint")
+var f=require("fact")
 var np=f.np
 
 var n=bint(process.argv[2])
